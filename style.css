@@ -1,0 +1,162 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+
+}
+
+h1,h2,h3,h4,h5,h6{
+
+}
+.hr-style{
+    border: 5px dotted white;
+    border-bottom: none;
+    /* width: 50px; */
+}
+.section-title{
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+header{
+    background-image: url(cover.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.banner-container{
+    height: 100vh;
+}
+.navbar{
+    padding: 1% 10%;
+    background-color: rgba(0,0,0,0.3);
+}
+.navbar-icon{
+    color: white;
+}
+.nav_menu a{
+    font-size: 1.3rem;
+    color: white;
+    transition: 0.4s;
+    margin: 10px;
+    border-radius: 5px;
+}
+.nav_menu a:hover{
+    background-color: coral;
+    transform: scale(1.1);
+    color: rgb(23, 23, 92);
+}
+.banner-container h1{
+    font-size: 3.5rem;
+    background-color: rgba(13, 52, 87, 0.8);
+    padding: 11px 21px;
+    border-radius: 7px;
+}
+#features{
+    padding: 5% 10%;
+    background-color: rgb(19, 76, 98);
+}
+.features-col{
+    border: 1px solid coral;
+    color: white;
+    border-radius: 6px;
+    padding: 16px;
+    margin: 20px 0px;
+    transition: 0.4s;
+}
+.features-col:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+}
+.icon-style{
+    background-color: cornflowerblue;
+    padding: 15px;
+    color: white;
+    margin: 6px 0px;
+}
+#about-me{
+    padding: 5% 11%;
+    background-color: rgb(8, 8, 97);
+}
+#about-me a{
+    font-size: 1rem;
+    font-weight: lighter;
+    color: greenyellow;
+    text-decoration: underline;
+}
+#about-me p{
+    font-size: 1rem;
+    margin-bottom: 0;
+    font-weight: light;
+    color: white;
+}
+.achievie-desc span{
+    font-weight: 650 !important;
+    color: aqua;
+}
+.basic-desc{
+    transition: 0.4s;
+}
+.basic-desc:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+}
+.achievie-desc{
+    transition: 0.4s;
+}
+.achievie-desc:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+}
+.star i{
+    width: 20px;
+}
+#tutorials{
+    padding: 5% 10%; 
+    background-color:rgb(19, 76, 98);
+}
+.card{
+    border: 2px solid coral;
+    transition: 0.4s;
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+}
+#feedback{
+    padding: 7%;
+    background: rgb(8, 8, 97);
+}
+
+.bg-color{
+    background-color: rgb(17, 17, 75);
+}
+.carousel-item{
+    padding: 5% 15%;
+    text-align: center;
+    font-style: italic;
+    color: white;
+}
+.feedback-img{
+    width: 270px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.carousel-indicators{
+   bottom: -30px;
+}
+#contact{
+    padding: 3% 10%;
+    background-color: rgb(19, 76, 98);
+}
+.from-group label{
+    color: yellowgreen;
+    font-size: 1rem;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+footer{
+    padding: 1% 10%;
+    background-color: rgb(45, 40, 40);
+}
